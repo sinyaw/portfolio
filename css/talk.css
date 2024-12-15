@@ -1,0 +1,174 @@
+/**start standard use*/
+.fit-content{
+    width: fit-content;
+    height: fit-content;
+}
+
+/*.sq-con{*/
+/*    width: 100%;*/
+/*    padding-top: 100%; !* 1:1 Aspect Ratio *!*/
+/*}*/
+
+/*.sq-div{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*}*/
+
+/**end standard use*/
+
+.dis-title div {
+    /*border: 1px solid black;*/
+}
+
+h1.forum {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+#forumContainer {
+    /*max-width: 800px;*/
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dis-group {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dis-group h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.div-title {
+    margin-top: 6vh;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #6c757d;
+}
+
+.div-title .-wd {
+    width: 100%;
+    margin-right: 1rem;
+}
+
+
+.div-title .-bt {
+    min-width: fit-content;
+}
+
+.div-title .-bt .btn {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding: 0.25rem 0;
+    /*width: 100%;*/
+    /*height: 1em;*/
+}
+
+.dis-content {
+    margin-top: 2vh;
+    border-bottom: 1px solid #dadada;
+}
+
+.dis-content .cmt-user{
+    width: 10%;
+    min-width: 2.5rem;
+    padding-top: 0.1rem;
+    text-align: center;
+}
+
+.dis-content .cmt-user .btn-avatar {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    max-width: 5ex;
+    max-height: 5ex;
+    border: 1px solid #dadada;
+    border-radius: 50%;
+}
+
+.dis-content .cmt-content {
+    min-height: 4rem;
+    padding-left: 0.3rem;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+    border-bottom: 1px solid #dadada;
+    /*border-left: 1px solid #dadada;*/
+}
+
+.dis-content .cmt-detail{
+    height: 2.5rem;
+}
+
+.dis-content .icon {
+    /*width: fit-content;*/
+    height: fit-content;
+    padding-left: 0.3rem;
+    align-self: center;
+}
+
+.dis-content .icon button {
+    margin-right: 2rem;
+}
+
+.dis-content .dt {
+    width: 10rem;
+    align-self: center;
+}
+
+.dis-content {
+    display: flex;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+
+.dis-content .dt p {
+    font-size: small;
+    color: #6c757d;
+}
+
+.post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+}
+
+.pagination .active {
+    background-color: #0056b3;
+    font-weight: bold;
+}
